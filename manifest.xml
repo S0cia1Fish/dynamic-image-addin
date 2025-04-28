@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:type="TaskPaneApp">
+  <Id>2d6e1dc7-1234-4321-bbbb-aaaae5c9b333</Id>
+  <Version>1.0.0.0</Version>
+  <ProviderName>YourProviderName</ProviderName>
+  <DefaultLocale>en-US</DefaultLocale>
+  <DisplayName DefaultValue="Dynamic Image Add-in" />
+  <Description DefaultValue="Displays an always-updating image from your server." />
+  <IconUrl DefaultValue="https://yip.su/RNPrU5.png" />
+  <SupportUrl DefaultValue="https://yourwebsite.com" />
+  <AppDomains>
+    <AppDomain>https://yip.su</AppDomain>
+  </AppDomains>
+  <Hosts>
+    <Host Name="Document" />
+    <Host Name="Workbook" />
+    <Host Name="Presentation" />
+  </Hosts>
+  <DefaultSettings>
+    <SourceLocation DefaultValue="https://S0cia1Fish.github.io/dynamic-image-addin/addin.html" />
+  </DefaultSettings>
+  <Permissions>ReadWriteDocument</Permissions>
+</OfficeApp>
